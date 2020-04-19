@@ -44,6 +44,10 @@ Furthermore, reservation systems are hard to use, including sign-ups, emails, ca
 
 Safe Queue is an amazingly easy to use App that for both the business (or polling place) and the consumer.   There is no sign up required for consumers or for businesses, so it can be used immediately upon download. Absolutely no personal information is required, and consumers can be in line at a business within seconds of downloading the app to their devices.   Consumers use the app to join "safe queues" and businesses use the app to manage entry into their business.   A business can have as many safe queues as they want, managing each independently.
 
+<p align="center">
+<img src="./images/screenshots/screenshot_logo_device.png" width="25%" title="Safe Queue Home screen">
+</p>
+
 Safe Queue is realized as a mobile app with cloud services (including computing, middleware, databases, push notifications, geolocation, geocoding). The mobile app is implemented in react-native and all cloud services have been tested in the IBM Cloud.  <b>Safe Queue was developed from the Community starter kit supplied by IBM as part of the 2020 Call For Code Global Challenge to take on COVID-19.</b>
 
 
@@ -58,11 +62,6 @@ A business creates a 'safe queue' for itself using the same App. The manager (or
 <b>Another key element of Safe Queue is Push Notifications.</b>  The employee at the business manages the line using the Safe Queue App, and notifies consumers when they should come in. The system automatically notifies the next few people in line that their time is coming soon.  There is no texting, cell phone numbers or any other personal information used, so this is again super easy for consumers and anonymous as well.
 
 <b>The last key element of Safe Queue is Voice Alerts.</b> Consumers get typical notifications through texting or notifications, but Safe Queue adds brief audio to them.  Instead of a ding, they hear a short message like: "This is Safe Queue, you are next in line".  Consumers do not have to watch their phones continuously and can do other things while waiting. The voice alert is much more user friendly.
-
-<p align="center">
-<img src="./images/screenshots/screenshot_logo_device.png" width="25%" title="Safe Queue Home screen">
-</p>
-
 
 ### Typical Use Cases
 
@@ -118,24 +117,23 @@ The following are needed for widespread production deployment:
 1. Optimizations [est. 5 days elapsed time]
 - push notification is missing some cases (seems to be react-native related, as I've done several successful production deployments of APN/FCM though not in react) [5 man-days]
 - database naming conventions and code cleanup [2 man-days]
-- make prettier, though this optional [2 man-days]
+- (optional) make prettier [2 man-days]
 
 
 2. Features [est. 5 days elapsed time]
 
-- complete Android implementation [1 man-week]
-- ability to enter a business logo or take a picture of the business [2 man-days]
-ability to enter a business logo or take a picture of the business [2 man-days]
-- ability to notify multiple people in line [3 man-days]
-- complete the turn-by-turn driving directions [2 man-days]
+- complete Android implementation for react-native [1 man-week]
+- feature to enter a business logo or take a picture of the business [2 man-days]
+- feature to notify multiple people in line [3 man-days]
+- (optional) complete the turn-by-turn driving directions [2 man-days]
 3. Cloud Instantiation [1 day elapsed time]
-- create production accounts and billing
+- create necessary production accounts and billing
 - configure for increased scalability
 
 4. App deployment to app stores [est. 1 week elapsed time]
-- Create necessary accounts at Apple/Google/etc.
-- Create necessary accounts Submit production app to Apple for approval
-- Submit production app to Google and optionally other app stores
+- create necessary accounts at Apple/Google/etc.
+- submit production app to Apple for approval
+- submit production app to Google and optionally other app stores
 
 ## License
 Portions of this software originated from the Community starter kit supplied by IBM as part of the 2020 Call For Code Global Challenge to take on COVID-19, which include the following notice:
