@@ -77,13 +77,13 @@ He leaves his car and goes in, shows his QR Code to the employee who scans it (a
 The list of safe queues in order of cloesness, where the green highlight is close enough to join (one is shown, but there may be multiple)
 </th>
 <th>
-<img src="./images/screenshots/screenshot_selectqueue_device.png" width="30%" title="Safe Queue lines available">
+<img src="./images/screenshots/screenshot_selectqueue_device.png"  title="Safe Queue lines available">
 </th>
 <th>
 Tapping on the Costco opens the screen:
 </th>
 <th>
-<img src="./images/screenshots/screenshot_inqueue_device.png" width="30%" title="Safe Queue waiting">
+<img src="./images/screenshots/screenshot_inqueue_device.png"  title="Safe Queue waiting">
 </th>
 </tr>
 </table>
