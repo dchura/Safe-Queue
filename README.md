@@ -72,8 +72,14 @@ As his turn in line approaches, he receives notifications with audio alerts:  "t
 He leaves his car and goes in, shows his QR Code to the employee who scans it (also using the App) which confirms he is the next one in line.  The successful scan then removes him from the line and notifications go out to everyone else waiting.
 <p align="center">
 <table style="width:100%; border:0;">
+<colgroup>
+      <col span="1" style="width: 15%;">
+      <col span="1" style="width: 32%;">
+      <col span="1" style="width: 15%;">
+      <col span="1" style="width: 33%;">
+   </colgroup>
 <tr>
-<th style="width:25%;">
+<th>
 The list of safe queues in order of cloesness, where the green highlight is close enough to join (one is shown, but there may be multiple)
 </th>
 <th>
