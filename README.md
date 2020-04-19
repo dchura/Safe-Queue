@@ -59,7 +59,7 @@ Another key element of Safe Queue is Push Notifications.  The employee at the bu
 The last key element of Safe Queue is Voice Alerts.  Consumers get typical notifications through texting or notifications, but Safe Queue adds brief audio to them.  Instead of a ding, they hear a short message like: "This is Safe Queue, you are next in line".  Consumers do not have to watch their phones continuosly and can do other things while waiting. The voice alert is much more user friendly.
 
 <p align="center">
-<img src="./images/screenshots/screenshot_logo.png" width="50%" title="Safe Queue Home screen">
+<img src="./images/screenshots/screenshot_logo.png" width="25%" title="Safe Queue Home screen">
 </p>
 
 
