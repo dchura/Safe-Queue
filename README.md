@@ -78,6 +78,7 @@ He leaves his car and goes in, shows his QR Code to the employee who scans it (a
       <col span="1" style="width: 15%;">
       <col span="1" style="width: 33%;">
    </colgroup>
+   <tbody>
 <tr>
 <th>
 The list of safe queues in order of cloesness, where the green highlight is close enough to join (one is shown, but there may be multiple)
@@ -92,6 +93,7 @@ Tapping on the Costco opens the screen:
 <img src="./images/screenshots/screenshot_inqueue_device.png"  title="Safe Queue waiting">
 </th>
 </tr>
+</trbody>
 </table>
 </p>
 
