@@ -136,3 +136,26 @@ ability to enter a business logo or take a picture of the business [2 man-days]
 - Create necessary accounts at Apple/Google/etc.
 - Create necessary accounts Submit production app to Apple for approval
 - Submit production app to Google and optionally other app stores
+
+## License
+Portions of this software originated from the Community starter kit supplied by IBM as part of the 2020 Call For Code Global Challenge to take on COVID-19, which include the following notice:
+
+Copyright (c) Facebook, Inc. and its affiliates.
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+
+Other portions of this software were developed by enclayve Group, LLC and include the following notice:
+
+Copyright 2020 ENCLAYVE GROUP LLC
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use any file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
