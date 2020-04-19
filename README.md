@@ -65,11 +65,7 @@ The last key element of Safe Queue is Voice Alerts.  Consumers get typical notif
 
 ### Typical Use Cases
 
-CONSUMER: A consumer wants to go to Costco for a number of items.  He opens up Safe Queue, taps on 'CUSTOMER' and sees his Costco has a 'safe queue'. Great, he is far away so can't get in line. He drives to the Costco and when he gets close enough (1000 feet) to the store, his app turns green for Costco. He taps on it (it is an obvious and large area) and he's entered into the line. He parks his car and waits there, safe and sound.
-
-As his turn in line approaches, he receives notifications with audio alerts:  "this is Safe Queue, you are now second in line" so he can get ready,  and then finally: "this is safe queue, you can go in now.".
-
-He leaves his car and goes in, shows his QR Code to the employee who scans it (also using the App) which confirms he is the next one in line.  The successful scan then removes him from the line and notifications go out to everyone else waiting.
+<b>1. A CONSUMER GOES TO A STORE</b>: A consumer wants to go to Costco for a number of items.  He opens up Safe Queue, taps on 'CUSTOMER' and sees his Costco has a 'safe queue'. Great, he is far away so can't get in line. He drives to the Costco and when he gets close enough (1000 feet) to the store, his app turns green for Costco. He taps on it (it is an obvious and large area) and he's entered into the line. He parks his car and waits there, safe and sound.
 <p align="center">
 <table style="width:100%; border:0;">
 <colgroup>
@@ -81,13 +77,13 @@ He leaves his car and goes in, shows his QR Code to the employee who scans it (a
    <tbody>
 <tr>
 <th>
-The list of safe queues in order of cloesness, where the green highlight is close enough to join (one is shown, but there may be multiple)
+Tap on 'CUSTOMER'. A list of published safe queues ordered by distance  appears. One of more are green, indicating you are close enough to join that safe queue.
 </th>
 <th>
 <img src="./images/screenshots/screenshot_selectqueue_device.png"  title="Safe Queue lines available">
 </th>
 <th>
-Tapping on the Costco opens the screen:
+Tap the on greeen Costco entry, which confirms you want to join the safe queue and offers an optional nickname. 'frank' was typed in as the nickname.
 </th>
 <th>
 <img src="./images/screenshots/screenshot_inqueue_device.png"  title="Safe Queue waiting">
@@ -97,11 +93,14 @@ Tapping on the Costco opens the screen:
 </table>
 </p>
 
+As his turn in line approaches, he receives notifications with audio alerts:  "this is Safe Queue, you are now second in line" so he can get ready,  and then finally: "this is safe queue, you can go in now.".
 
-BUSINESS CREATE:  A manager (or employee) of a business opens up Safe Queue, taps on "MANAGER" and sees an empty list. He taps on Add and enters the business name (and optional logo and address, though this is pre-populated by the App from the GPS location).  He then taps on Save, which publishes this for consumers to find (as per CONSUMER use case above). He then see a list, which includes what he created. He taps on it to manage it (see BUSINESS MANAGE use case below).  
+He leaves his car and goes in, shows his QR Code to the employee who scans it (also using the App) which confirms he is the next one in line.  The successful scan then removes him from the line and notifications go out to everyone else waiting.
+
+<b>2. A BUSINESS CREATES A SAFE QUEUE</b>:  A manager (or employee) of a business opens up Safe Queue, taps on "MANAGER" and sees an empty list. He taps on Add and enters the business name (and optional logo and address, though this is pre-populated by the App from the GPS location).  He then taps on Save, which publishes this for consumers to find (as per CONSUMER use case above). He then see a list, which includes what he created. He taps on it to manage it (see BUSINESS MANAGE use case below).  
 Note that a business can have as many safe queues at their location as they want, each managed
 
-BUSINESS MANAGE:
+<b>3. A BUSINESS MANAGES ENTRY TO A STORE:
 
 <p align="center">
 <img src="./images/screenshots/screenshot_manage_device.png" width="30%" title="Safe Queue management">
