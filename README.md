@@ -18,7 +18,7 @@
 
 COVID-19 has changed everyone's lives and social distancing has created an new environment for stores, polling places, restaraunts and businesses of all kinds.  The need to limit entry has created long lines of people at least 6 feet apart, who must stand for a long times outside in hot and cold weather.  This is not just inconvience but also discourages necessary shopping and can even harm our democracy as shown in the Wisconsin Election,  where lines reached several hours long.
 
-This is a problem that can impact tens of thousands of businesses and millions of people every day.  Below are pictures of the problem:
+This is a problem that can impact tens of thousands of businesses and millions of people every day.  Below are pictures of the problem at a Costco and at a Wisconsin polling place:
 
 
 ![Costco Lines April 2020](/images/costco5.jpg)
