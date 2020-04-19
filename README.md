@@ -105,6 +105,8 @@ BUSINESS MANAGE:
 
 <p align="center">
 <img src="./images/screenshots/screenshot_manage_device.png" width="30%" title="Safe Queue management">
+<img src="./images/screenshots/screenshot_manage_scan_device.png" width="30%" title="Safe Queue management">
+
 </p>
 
 
