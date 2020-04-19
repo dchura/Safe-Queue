@@ -95,13 +95,17 @@ See the screenshots and detailed use cases below. There is also a <b>the video d
    <tbody>
 <tr>
 <th>
+<small>
 Tap on 'CUSTOMER'. A list of published safe queues ordered by distance  appears. One of more are green, indicating you are close enough to join that safe queue.
+</small>
 </th>
 <th>
 <img src="./images/screenshots/screenshot_selectqueue_device.png"  title="Safe Queue lines available">
 </th>
 <th>
-Tap the a greeen  entry, which confirms you want to join the safe queue and enter an optional nickname. 'frank' was typed in this case.
+<small>
+Tap the a green  entry, which confirms you want to join the safe queue and enter an optional nickname. 'frank' was typed in this case.
+</small>
 </th>
 <th>
 <img src="./images/screenshots/screenshot_inqueue_device.png"  title="Safe Queue waiting">
