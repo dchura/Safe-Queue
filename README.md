@@ -73,7 +73,7 @@ He leaves his car and goes in, shows his QR Code to the employee who scans it (a
 <p align="center">
 <table style="width:100%; border:0;">
 <tr>
-<th>
+<th style="width:25%;">
 The list of safe queues in order of cloesness, where the green highlight is close enough to join (one is shown, but there may be multiple)
 </th>
 <th>
