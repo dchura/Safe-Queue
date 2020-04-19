@@ -21,8 +21,8 @@ COVID-19 has changed everyone's lives and social distancing has created an new e
 This is a problem that can impact tens of thousands of businesses and millions of people every day.  Below are pictures of the problem at a Costco and at a Wisconsin polling place:
 
 <p align="center">
-<img src="./images/costco5.jpg" width="50%" title="Costco Lines April 2020">
-<img src="./images/wisconsin1.jpg" width="50%" alt="Wisconsin Election April 2020">
+<img src="./images/costco5.jpg" width="45%" title="Costco Lines April 2020">
+<img src="./images/wisconsin1.jpg" width="45%" alt="Wisconsin Election April 2020">
 </p>
 
 
