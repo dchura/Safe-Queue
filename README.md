@@ -59,7 +59,7 @@ Another key element of Safe Queue is Push Notifications.  The employee at the bu
 The last key element of Safe Queue is Voice Alerts.  Consumers get typical notifications through texting or notifications, but Safe Queue adds brief audio to them.  Instead of a ding, they hear a short message like: "This is Safe Queue, you are next in line".  Consumers do not have to watch their phones continuosly and can do other things while waiting. The voice alert is much more user friendly.
 
 <p align="center">
-<img src="./images/screenshots/screenshot_logo.png" width="25%" title="Safe Queue Home screen">
+<img src="./images/screenshots/screenshot_logo_device.png" width="25%" title="Safe Queue Home screen">
 </p>
 
 
@@ -71,8 +71,8 @@ As his turn in line approaches, he receives notifications with audio alerts:  "t
 
 He leaves his car and goes in, shows his QR Code to the employee who scans it (also using the App) which confirms he is the next one in line.  The successful scan then removes him from the line and notifications go out to everyone else waiting.
 <p align="center">
-<img src="./images/screenshots/screenshot_selectqueue.png" width="30%" title="Safe Queue lines available">
-<img src="./images/screenshots/screenshot_inqueue.png" width="30%" title="Safe Queue waiting">
+<img src="./images/screenshots/screenshot_selectqueue_device.png" width="30%" title="Safe Queue lines available">
+<img src="./images/screenshots/screenshot_inqueue_device.png" width="30%" title="Safe Queue waiting">
 </p>
 
 
@@ -82,7 +82,7 @@ Note that a business can have as many safe queues at their location as they want
 BUSINESS MANAGE:
 
 <p align="center">
-<img src="./images/screenshots/screenshot_manage.png" width="30%" title="Safe Queue management">
+<img src="./images/screenshots/screenshot_manage_device.png" width="30%" title="Safe Queue management">
 </p>
 
 
