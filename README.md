@@ -79,8 +79,8 @@ A business creates a 'safe queue' for itself using the same App. The manager (or
 <b>The last key element of Safe Queue is Voice Alerts.</b> Consumers get typical notifications through texting or notifications, but Safe Queue adds brief audio to them.  Instead of a ding, they hear a short message like: "This is Safe Queue, you are next in line".  Consumers do not have to watch their phones continuously and can do other things while waiting. The voice alert is much more user friendly.
 
 See screenshots and use cases below and <b>the video demonstrating Safe Queue in action </b>here:
-<video width="320" height="240" controls>
-  <source src="../videos/tempvideo.mp4" type="video/mp4">
+<video width="1005" controls>
+  <source src="http://www.enclayvegroup.com/newenc/videos/marketing_video_v4_small.mp4" type="video/mp4">
 </video>
 
 ## Use Cases
@@ -176,12 +176,15 @@ The following are needed for widespread production deployment:
 - submit production app to Google and optionally other app stores
 
 ## Analytics
-The intent of Save Queue today is to solve an immediate problem immediately. However, it provides the means to collect a large amount of anonymous data about consumers, stores, travel and lines. This is a unique data set unique to these COVID-19 times because these kind of lines have never existed before. Should that data be kept (today it is not), one might be able to understand some of the following:
-* evaluate effectiveness of safe queues
-* how long people wait in lines
+The intent of Save Queue today is to solve an immediate problem immediately. However, it provides the means to collect a large amount of anonymous data about consumers, stores, travel and lines. This is a unique data set unique to these COVID-19 times because these kind of lines have never existed before.
+
+Note that the Scan Queue app delivers a valuable service to consumers, so is the only reason why this data would become available for analysis. Should that data be kept in the cloud (today it is not kept longer than needed), one might be able to understand some of the following:
+* how many people are really affected
+* how long people wait in lines (which could be useful to users)
 * how different regions are effected differently
-* when and what stores people find necessary
-* how people abandon lines
+* when people shop
+* what stores people find necessary
+* when people abandon lines
 * where stores need to be located to ease
 * much more...
 
