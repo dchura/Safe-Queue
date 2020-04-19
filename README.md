@@ -24,12 +24,12 @@ COVID-19 has changed everyone's lives and social distancing has created an new e
 <img src="./images/wisconsin1.jpg" width="45%" alt="Wisconsin Election April 2020">
 </p>
 <p align="center">
-<img src="./images/costco5.jpg" width="45%" title="Costco Lines April 2020">
+<img src="./images/costco1.jpg" width="45%" title="Costco Lines April 2020">
 <img src="./images/wisconsin2.jpeg" width="45%" alt="Wisconsin Election April 2020">
 </p>
 
 <p align="center">
-<img src="./images/costco5.jpg" width="45%" title="Costco Lines April 2020">
+<img src="./images/costco7.jpg" width="45%" title="Costco Lines April 2020">
 <img src="./images/wisconsin4.jpg" width="45%" alt="Wisconsin Election April 2020">
 </p>
 
