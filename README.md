@@ -78,10 +78,8 @@ A business creates a 'safe queue' for itself using the same App. The manager (or
 
 <b>The last key element of Safe Queue is Voice Alerts.</b> Consumers get typical notifications through texting or notifications, but Safe Queue adds brief audio to them.  Instead of a ding, they hear a short message like: "This is Safe Queue, you are next in line".  Consumers do not have to watch their phones continuously and can do other things while waiting. The voice alert is much more user friendly.
 
-See screenshots and use cases below and <b>the video demonstrating Safe Queue in action </b>here:
-<video width="1005" controls>
-  <source src="http://www.enclayvegroup.com/newenc/videos/marketing_video_v4_small.mp4" type="video/mp4">
-</video>
+See the screenshots and detailed use cases below. There is also a <b>the video demonstrating Safe Queue in action </b>
+<a href="http://www.enclayvegroup.com/newenc/videos/marketing_video_v4_small.mp4">here</a> and in the videos folder of this project.
 
 ## Use Cases
 
