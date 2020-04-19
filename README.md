@@ -11,6 +11,7 @@
 2. [The idea](#the-idea)
 3. [How it works](#how-it-works)
 4. [Production Release](#production-release)
+5. [Analytics](#analytics)
 
 
 ## Overview
@@ -35,12 +36,14 @@ COVID-19 has changed everyone's lives and social distancing has created an new e
 
 This is a problem that can impact thousands of businesses and possibly millions of people every single day.  Lines such as these discourage shopping, voting, take-out eating, and prevent older or more handicapped persons from participating. Given the large number of people in these lines every day, this has potential for spreading the disease despite efforts to distance.
 
+The intent of Save Queue is to solve this immediate problem immediately.  It also provides the data necessary for future analytics to understand human behavior in times of COVID-19 ahead.
+
 
 ### How can technology help?
 
 Of course, physical lines can be replaced by virtual lines, where people do not have to be physically in a line to "be in line". Virtual lines are "safe" because you are never near anyone else while waiting, as you are with physical lines (as in the pictures above). Virtual lines don't subject customers to bad weather (hot or cold) or require standing up and can work for businesses without much parking (such as a restaurants now doing all take-out),
 
-There are already many "reservation" systems available today, however these do not address the ad-hoc nature of shopping where the time taken by a customer in a store varies widely and when they go is not planned.  As such, reservation systems cannot handle the on-demand nature of shopping (and voting) that people see as "normal".  People want to go to stores when they want to go, and spend the time they need. This behavior cannot be "reserved" effectively by the customer and cannot be effectively managed by the business (i.e. know when times are available, handle no shows, etc...).  In these COVID-19 times, restoring the ability to just go to the store brings back a sense of normalcy, and a safe queue can help do so while preserving safety and spread of the disease.
+There are already many "reservation" systems available today, however these do not address the ad-hoc nature of shopping where the time taken by a customer in a store varies widely and when they go is not planned.   People want to go to stores when they want to go, and spend the time they need. As such, reservation systems cannot handle the on-demand nature of shopping (and voting) that people see as "normal". This kind of behavior cannot be "reserved" effectively by the customer; businesses cannot effectively manage it. In these COVID-19 times, restoring the ability to just go to the store brings back a sense of normalcy, and a safe queue can help do so while preserving safety and spread of the disease.
 
 Furthermore, reservation systems are hard to use, including sign-ups, emails, calendars, time-slots, personal information, and a promise to show up in the future, which must be managed by businesses.  Stores (e.g. Costco) will find it impossible to use reservation systems for on-demand shopping, Polling places will find it impossible to create reservations for voting - voting is a right, and missing your reservation isn't a viable option for democracy.
 
@@ -128,10 +131,10 @@ The following are needed for widespread production deployment:
 - database naming conventions and code cleanup [2 man-days]
 - (optional) make prettier [2 man-days]
 
-
 2. Features [est. 5 days elapsed time]
 
 - complete Android implementation for react-native [1 man-week]
+- add EULA and privacy policy [1 man-day]
 - feature to enter a business logo or take a picture of the business [2 man-days]
 - feature to notify multiple people in line [3 man-days]
 - (optional) complete the turn-by-turn driving directions [2 man-days]
@@ -143,6 +146,15 @@ The following are needed for widespread production deployment:
 - create necessary accounts at Apple/Google/etc.
 - submit production app to Apple for approval
 - submit production app to Google and optionally other app stores
+
+## Analytics
+The intent of Save Queue today is to solve an immediate problem immediately. However, it provides the means to collect a large amount of anonymous data about consumers, stores, travel and lines. This is a unique data set unique to these COVID-19 times because these kind of lines have never existed before. Should that data be kept (today it is not), one might be able to understand some of the following:
+* how long people wait in lines
+* how different regions are effected differently
+* when and what stores people find necessary
+* how people abandon lines
+* where stores need to be located to ease
+* much more...
 
 ## License
 Portions of this software originated from the Community starter kit supplied by IBM as part of the 2020 Call For Code Global Challenge to take on COVID-19, which include the following notice:
