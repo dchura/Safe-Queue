@@ -19,7 +19,7 @@
 
 ### What's the problem?
 
-COVID-19 has changed everyone's lives and social distancing has created an new environment for stores, polling places, restaraunts and businesses of all kinds.  The need to limit entry has created long lines of people at least 6 feet apart, who must stand for a long times outside in hot and cold weather.  This is not just an inconvience but it discourages necessary shopping and has the possibility of effecting our democracy as shown in the Wisconsin Election,  where lines reached several hours long.  Below are pictures of the problem at a Costco and at a Wisconsin polling place:
+COVID-19 has changed everyone's lives and social distancing has created an new environment for stores, polling places, restaraunts and businesses of all kinds.  The need to limit entry has created long lines of people at least 6 feet apart, who must stand for a long times outside in hot and cold weather.  This is not just an inconvenience but it discourages necessary shopping and has the possibility of effecting our democracy as shown in the Wisconsin Election,  where lines reached several hours long.  Below are pictures of the problem at a Costco and at a Wisconsin polling place:
 
 <p align="center">
 <img src="./images/costco5.jpg" width="45%" title="Costco Lines April 2020">
@@ -37,7 +37,9 @@ COVID-19 has changed everyone's lives and social distancing has created an new e
 
 This is a problem that can impact thousands of businesses and possibly millions of people every single day.  Lines such as these discourage shopping, voting, take-out eating, and prevent older or more handicapped persons from participating. Given the large number of people in these lines every day, this has potential for spreading the disease despite efforts to distance.
 
-The intent of Save Queue is to solve this immediate problem immediately.  It also provides the data necessary for future analytics to understand human behavior in times of COVID-19 ahead.
+The intent of Save Queue is to solve this immediate problem immediately.  
+
+In addition, because Safe Queue provides a value to consumers, it can be also be the means to collect (anonymous) data necessary for future analytics to understand human behavior in times of COVID-19 now and ahead. It may even inform and measure the process for returning to normalcy.
 
 
 ### How can technology help?
@@ -70,7 +72,7 @@ Safe Queue is realized as a mobile app with cloud services (including computing,
 
 <b>The primary element of Safe Queue is GPS location.</b>  The app uses your GPS location as a condition for entering the 'safe queue' of a business.  A consumer can enter a line for a business if he is located within 1000 feet of the business.  It doesn't matter who you are, as long as you are nearby and stay nearby. Typically you will be waiting in your car where you are 'safe' rather than standing outside in a line with lots of other people, subject to spread of the virus, the weather (hot or cold) and ability to stand for a long time. If you drive away from the business, you are removed from the line automatically by the App.  The app provides directions to businesses and clearly shows when you can get in line at a business (i.e. you are close enough to it)
 
-A business creates a 'safe queue' for itself using the same App. The manager (or employee) creates the queue, where the GPS location of that person becomes the location used for the business.  This becomes published where consumers see it in their Apps (based upon their location).  The app reverse-geocodes the location into an address so the business does not need to enter (though it can edit it).  Once created, an employee of the business controls the actual entry of people with a few simple buttons.  The business can delete the 'safe queue' at any time, if they want.  However, any consumer who shows up long before opening hours can get in line, provided they stay close to the business!  Note that a business can create several safe queues, perhaps segregating them by entrance location (e.g. contractor vs. consumer), by age (e.g. over 65 line), or by type (e.g. Instacart shoppers vs individuals)
+A business creates a 'safe queue' for itself using the same App. The manager (or employee) creates the queue, where the GPS location of that person becomes the location used for the business.  This becomes published where consumers see it in their Apps (based upon their location).  The app reverse-geocodes the location into an address so the business does not need to enter (though it can edit it).  Once created, an employee of the business controls the actual entry of people with a few simple buttons. Anyone who shows up long before opening hours can get in line, provided they stay close to the business!  Note that a business can create several safe queues, perhaps segregating them by entrance location (e.g. contractor vs. consumer), by age (e.g. over 65 line), or by type (e.g. Instacart shoppers vs individuals)
 
 <b>Another key element of Safe Queue is a QR-Code.</b>  The identity of persons in line is encapsulated in a randomly-generated QR Code by the App,  which is scanned by the business to validate entry.  This requires nothing from the user, so is super-easy to use. In addition, it is completely anonymous, as consumers expect when shopping.
 
@@ -79,7 +81,7 @@ A business creates a 'safe queue' for itself using the same App. The manager (or
 <b>The last key element of Safe Queue is Voice Alerts.</b> Consumers get typical notifications through texting or notifications, but Safe Queue adds brief audio to them.  Instead of a ding, they hear a short message like: "This is Safe Queue, you are next in line".  Consumers do not have to watch their phones continuously and can do other things while waiting. The voice alert is much more user friendly.
 
 See the screenshots and detailed use cases below. There is also a <b>the video demonstrating Safe Queue in action </b>
-<a href="http://www.enclayvegroup.com/newenc/videos/marketing_video_v4_small.mp4">here</a> and in the videos folder of this project.
+<a href="http://www.enclayvegroup.com/safequeue_demo.mp4">here</a> and in the videos folder of this project.
 
 ## Use Cases
 
