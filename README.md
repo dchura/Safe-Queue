@@ -95,17 +95,13 @@ See the screenshots and detailed use cases below. There is also a <b>the video d
    <tbody>
 <tr>
 <th>
-<small>
 Tap on 'CUSTOMER'. A list of published safe queues ordered by distance  appears. One of more are green, indicating you are close enough to join that safe queue.
-</small>
 </th>
 <th>
 <img src="./images/screenshots/screenshot_selectqueue_device.png"  title="Safe Queue lines available">
 </th>
 <th>
-<small>
 Tap the a green  entry, which confirms you want to join the safe queue and enter an optional nickname. 'frank' was typed in this case.
-</small>
 </th>
 <th>
 <img src="./images/screenshots/screenshot_inqueue_device.png"  title="Safe Queue waiting">
@@ -119,8 +115,13 @@ As his turn in line approaches, he receives push notifications with audio alerts
 
 He leaves his car and goes in, shows his QR Code to the employee who scans it (also using the App) which confirms he is the next one in line.  The successful scan then removes him from the line and notifications go out to everyone else waiting.
 
-<b>2. A BUSINESS CREATES A SAFE QUEUE</b>:  A manager (or employee) of a business opens up the Safe Queue App, taps on "MANAGER" and sees an empty list. He taps on Add and enters the business name, an optional logo, and an address (though this is pre-populated by the App from the GPS location).  He then taps on Save, which publishes this for consumers to find (as per CONSUMER use case above). He then see a list, which includes what he created. He taps on it to manage it (see BUSINESS MANAGE use case below).  
-Note that a business can have as many safe queues at their location as they want, each managed
+<b>2. A BUSINESS CREATES A SAFE QUEUE</b>:  A manager (or employee) of a business opens up the Safe Queue App, taps on "MANAGER" and sees an empty list. He taps on Add and enters the business name, an optional logo, and an address (though this is pre-populated by the App from the GPS location).  He then taps on Save, which publishes this for consumers to find (as per CONSUMER use case above).
+<p align="center">
+<img src="./images/screenshots/screenshot_manage_create_device.png" width="25%" title="Safe Queue Home screen">
+</p>
+He then see a list, which includes what he created. He taps on it to manage it (see BUSINESS MANAGE use case below).  
+Note that a business can have as many safe queues at their location as they want, each managed by one or more employees.
+
 
 <b>3. A BUSINESS MANAGES ENTRY TO A STORE</b>:
 After having create a safe queue (see use case above), an employee at an entrance to the store uses the app to control entry.
