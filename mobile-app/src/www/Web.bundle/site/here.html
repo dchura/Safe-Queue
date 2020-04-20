@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+    <link rel="stylesheet" type="text/css" href="css/here.css" />
+
+    <title>SolutionsStarterKitCooperation2020App | HERE Map</title>
+  </head>
+  <body>
+    <div id="mapContainer"></div>
+    <button id="sidebarButton" onclick="togglePanel();">
+      <svg preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32" aria-hidden="true" style="will-change: transform;">
+        <path d="M4 24H28V26H4zM4 12H28V14H4zM4 18H28V20H4zM4 6H28V8H4z" fill="#6f737A"></path>
+      </svg>
+    </button>
+    <div id="sidebarPanel">
+      <button id="sidebarPanelButton" onclick="togglePanel();">
+        <svg class="collapseSidebar" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true" style="will-change: transform;">
+          <path d="M24 9.4L22.6 8 16 14.6 9.4 8 8 9.4 14.6 16 8 22.6 9.4 24 16 17.4 22.6 24 24 22.6 17.4 16 24 9.4z"></path>
+        </svg>
+      </button>
+      <div id="buttonsWrapper">
+        <svg onclick="searchFor('Food', togglePanel);" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="25%" height="25%" viewBox="0 0 48 48" aria-hidden="true" style="will-change: transform;">
+          <path fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"
+                d="M32.014,21.016c0,0,2.214,0.926,1,8 M32.283,32.298l0.37-1.282 M22.016,18.016c-1.596-0.152-3.35-1-5.002-1c-4.641,0-6,4.056-6,8 c0,8.646,4.001,14,7.989,14c1.674,0,3.561-1,5.013-1h-0.004c1.454,0,3.336,1,5.012,1c3.991-0.001,7.99-5.393,7.99-14 c0-3.926-1.355-8-6-8c-2.26,0-4.473,0.97-6.745,0.999l-0.255,0.001v-2.745c0,0,6.73,0.468,8-5c0,0-5.21-1.555-8.003,3 M20.513,10.516c-1.656-1.656-4.497-1.499-4.497-1.499s-0.157,2.842,1.499,4.497s4.497,1.499,4.497,1.499 S22.169,12.172,20.513,10.516z"></path>
+        </svg>
+        <svg onclick="searchFor('Help', togglePanel);" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="25%" height="25%" viewBox="0 0 48 48" aria-hidden="true" style="will-change: transform;">
+          <path fill="none" stroke="#FFF" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"
+                d="M9.5,34v-8.619c0-2.836,1.968-5.21,4.612-5.837c-1.197-0.533-2.032-1.73-2.032-3.124c0-1.889,1.531-3.42,3.42-3.42 s3.42,1.531,3.42,3.42c0,1.394-0.836,2.592-2.032,3.124c3.701-1.268,4.944-2.725,6.206-4.061c1.262-1.336,2.008-0.849,2.405-0.483 c0.442,0.406,1,1.263-0.313,2.625c-1.312,1.362-4.687,4.784-4.687,4.784V34 M28.5,34V22.409c0,0-2.39-2.423-3.93-4.003 M39.5,34 v-8.619c0-2.836-1.968-5.21-4.612-5.837c1.197-0.533,2.032-1.73,2.032-3.124c0-1.889-1.531-3.42-3.42-3.42 c-1.889,0-3.42,1.531-3.42,3.42c0,1.394,0.836,2.592,2.032,3.124c-3.701-1.268-5.119-2.956-6.381-4.291"></path>
+        </svg>
+        <svg onclick="searchFor('Other', togglePanel);" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" width="25%" height="25%" viewBox="0 0 48 48" aria-hidden="true" style="will-change: transform;">
+          <path fill="none" stroke="#FFF" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"
+                d="M12,33h-1c-1.105,0-2-0.895-2-2v-7h12 M37,15H23 M37,18H25 M37,21H27 M37,24h-8 M37,33h2V12H21v21h10 M18,17v7 M15,30 c-1.657,0-3,1.343-3,3c0,1.657,1.343,3,3,3s3-1.343,3-3C18,31.343,16.657,30,15,30z M34,30c-1.657,0-3,1.343-3,3 c0,1.657,1.343,3,3,3s3-1.343,3-3C37,31.343,35.657,30,34,30z M9,24l4.041-7H21v16h-3 M17,26h2"></path>
+        </svg>
+      </div>
+      <div id="routePanel">
+        <ul></ul>
+      </div>
+    </div>
+
+    <script>
+      const togglePanel = function () {
+        const sidebarButton = document.getElementById('sidebarButton');
+        const sidebarPanel = document.getElementById('sidebarPanel');
+        if (sidebarPanel.className.indexOf('sidebarExpanded') === -1) {
+          sidebarPanel.classList.add('sidebarExpanded');
+        } else {
+          sidebarPanel.classList.remove('sidebarExpanded');
+        }
+      }
+
+      const init = function () {
+        const search = document.getElementById('searchButton');
+        search.addEventListener('click', function () {
+          const text = document.getElementById('searchInput').value.trim();
+          if (text) {
+            searchFor(text);
+          }
+
+        })
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+      } else {
+        init();
+      }
+    </script>
+
+    <script src="js/here.js"></script>
+  </body>
+</html>
