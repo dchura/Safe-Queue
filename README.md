@@ -37,7 +37,7 @@ COVID-19 has changed everyone's lives and social distancing has created a new en
 
 This is a problem that can impact thousands of businesses and possibly millions of people every single day.  Lines such as these discourage shopping, voting, take-out eating, and prevent older or more handicapped persons from participating. Given the large number of people in these lines every day, this has potential for spreading the disease despite efforts to distance.
 
-The intent of Save Queue is to solve this immediate problem immediately.  
+The intent of Safe Queue is to solve this immediate problem immediately.  
 
 In addition, because Safe Queue provides a value to consumers, it can be also be the means to collect (anonymous) data necessary for future analytics to understand human behavior in times of COVID-19 now and ahead. It may even inform and measure the process for returning to normalcy.
 
